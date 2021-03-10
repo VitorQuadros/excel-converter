@@ -1,0 +1,10 @@
+{
+  "name": "converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vitor Quadros <viitorquadros@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
