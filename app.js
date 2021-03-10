@@ -1,3 +1,10 @@
-const fs = require("fs");
+const Reader = require("./classes/Reader");
 
-fs.readFile("./");
+const reader = new Reader();
+
+async function main() {
+    const data = await reader.read("./test.csv");
+    console.log(data);
+}
+
+main();
